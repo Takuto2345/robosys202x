@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText : 2022 Takuto Kanno
 # SPDX-License-Identifirt: BSD-3-Clause
 
@@ -14,6 +14,15 @@ res=0
 ###I/0 TEST###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
+# strange input
+
+out=$(echo あ | ./plus)
+[ "$?" =1 ] || ng ${LINENO}
+[ "${out}" = ""] || ng ${LINENO}
+
+out=$(echo | ./plus)
+[ "$?" =1 ] || ng ${LINENO}
+[ "${out}" = ""] || ng ${LINENO}
 
 # &&は左が成功すると右を実行つまり、この場合返されてたresが0ならechoにOKが格納される
 
