@@ -12,8 +12,8 @@ Ubuntuをインストール後、pyhon3をインストールし、このリポ�
 $./plus <入力したファイル名>
 を実行することで、和の答えが出力される。
 
-##インストール方法
-Ubuntu : 
+## インストール方法
+Ubuntu :https://jp.ubuntu.com/download 
 
 ## 仕様
 
