@@ -8,9 +8,9 @@
 * pyhon3  3.7, 3.8, 3.9, 3.10
 
 ## 使い方
-Ubuntuをインストール後、pyhon3をインストールし、このリポジトリをダウンロードすると中に./plusがあるので
+Ubuntu22.041をインストール後、pyhon3をインストールし、このリポジトリをダウンロードすると中に./plusがあるので
 $seq ＜x＞ | ./plus 
-を実行することで、和の答えが出力される。
+を実行することで、xが正の整数ならば1からxまでの和を出す。
 
 ## インストール方法
 Ubuntu :https://jp.ubuntu.com/download 
@@ -19,10 +19,13 @@ Ubuntu :https://jp.ubuntu.com/download
 
 ## 例
 
+1から5までの数を足す
+
 ```
 $ seq 5 | ./plus
 15
 ```
+
 
 ## 環境
 * Ubuntu
