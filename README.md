@@ -14,6 +14,7 @@ $seq ＜x＞ | ./plus
 
 ## インストール方法
 Ubuntu 22.04 :https://jp.ubuntu.com/download 
+
 robosys202x :
 ```
 $git clone git@github.com:Takuto2345/robosys202x.git
