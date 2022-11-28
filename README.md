@@ -19,6 +19,10 @@ Ubuntu :https://jp.ubuntu.com/download
 
 ## 例
 
+```
+$ seq 5 | ./plus
+15
+```
 
 ## 環境
 * Ubuntu
