@@ -13,9 +13,9 @@ $seq ＜x＞ | ./plus
 を実行することで、xが正の整数ならば1からxまでの和を出す。
 
 ## インストール方法
-*Ubuntu 22.04 :https://jp.ubuntu.com/download 
+* Ubuntu 22.04 :https://jp.ubuntu.com/download 
 
-*robosys202x :
+* robosys202x :
 ```
 $git clone git@github.com:Takuto2345/robosys202x.git
 ```
