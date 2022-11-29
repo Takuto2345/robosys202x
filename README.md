@@ -28,7 +28,7 @@ $ git clone https://github.com/Takuto2345/robosys202x.git
 $ ./plus < sum
 -21.998
 ```
- sumの中身
+　sumの中身
 ````
 4
 5
