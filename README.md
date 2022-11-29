@@ -17,7 +17,7 @@ $seq ＜x＞ | ./plus
 
 * robosys202x :
 ```
-$git clone git@github.com:Takuto2345/robosys202x.git
+$git clone https://github.com/Takuto2345/robosys202x.git
 ```
 
 ## 例
