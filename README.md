@@ -22,20 +22,13 @@ $ git clone https://github.com/Takuto2345/robosys202x.git
 ```
 
 ## 例
-sumの中身
-```
-4
-5
--32
-1.002
-```
 ・sumの中の数の和を出す.
 
 ```
 $ ./plus < sum
 -21.998
 ```
-sumの中身
+ sumの中身
 ````
 4
 5
