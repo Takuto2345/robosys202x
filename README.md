@@ -11,14 +11,14 @@
 Ubuntu22.041をインストール後、pyhon3をインストールし、以下のコードを実行することでxが正の数ならば和を出す
 ```
 
-$seq ＜x＞ | ./plus 
+$ seq ＜x＞ | ./plus 
 ```
 
 ## インストール方法
 
 * robosys202x :
 ```
-$git clone https://github.com/Takuto2345/robosys202x.git
+$ git clone https://github.com/Takuto2345/robosys202x.git
 ```
 
 ## 例
