@@ -1,7 +1,7 @@
 
 # robosys202x
 ![test](https://github.com/Takuto2345/robosys202x/actions/workflows/test.yml/badge.svg)
-
+![test](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue)
 ## 概要
 標準入力された数の和を返すコマンド
 
